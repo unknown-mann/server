@@ -1,16 +1,274 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+    "products": [
+        {
+            "id": "1",
+            "title": "APPLE iPhone 11 64GB (Black)",
+            "description": [
+                "Ничего лишнего. Только самое.",
+                "Новая система двух камер не оставит никого из ваших друзей за кадром. Самый быстрый процессор iPhone и мощный аккумулятор позволят больше делать и тратить меньше времени на подзарядку. А высочайшее качество видео на iPhone означает, что ваши истории станут ещё ярче и детальнее."
+            ],
+            "price": 694,
+            "rating": 4.91,
+            "stock": 194,
+            "brand": "Apple",
+            "category": "smartphones",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/f5/f5e18147-2976-11eb-a235-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/f5/f5e18148-2976-11eb-a235-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/88/887b1bda-2a17-11eb-a235-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "APPLE iPhone 13 Pro 128GB Alpine Green",
+            "description": [
+                "iPhone 13 Pro Просто. Нереально.",
+                "Дисплей Super Retina XDR с технологией ProMotion. Передняя панель Ceramic Shield радикально повышает прочность. Хирургическая нержавеющая сталь. Надёжная защита от воды (IP68). Система камер Pro получила самое масштабное обновление. Улучшенная аппаратная часть позволяет передать ещё больше деталей. Интеллектуальное программное обеспечение открывает новые возможности для съёмки фото и видео. Супербыстрый чип поддерживает все эти инновации. Так вы ещё не снимали."
+            ],
+            "price": 1500,
+            "rating": 4.82,
+            "stock": 84,
+            "brand": "Apple",
+            "category": "smartphones",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/b4/b4175a8f-a41a-11ec-a245-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/b4/b4175a90-a41a-11ec-a245-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/b4/b4175a91-a41a-11ec-a245-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "APPLE Airpods with Charging Case",
+            "description": [
+                "Ноль проводов. Максимум преимуществ",
+                "Новый чип H1, созданный Apple, обеспечивает более стабильное беспроводное соединение с вашими устройствами и более быструю передачу данных: до 2 раз быстрее при переключении между активными устройствами3 и в 1,5 раза быстрее при телефонных звонках.4 Благодаря чипу H1 теперь Siri можно активировать с помощью голоса, а ещё задержка сигнала при использовании наушников во время компьютерных игр стала до 30% ниже.5 Поэтому, чем бы вы ни занимались — играли в игры, слушали музыку или подкасты, — качество звучания всегда будет потрясающим."
+            ],
+            "price": 190,
+            "rating": 4.99,
+            "stock": 336,
+            "brand": "Apple",
+            "category": "headphones",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/02/02ee1a43-5568-11eb-a239-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/02/02ee1a46-5568-11eb-a239-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/02/02ee1a44-5568-11eb-a239-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "APPLE AirPods Pro",
+            "description": [
+                "Вашим ушам это по душе",
+                "Это наушники совершенно нового класса. AirPods Pro исключительно комфортны, в них реализована технология активного шумоподавления, и можно даже выбрать вкладыши своего размера. Вы будете лучше чувствовать музыку, а не наушники."
+            ],
+            "price": 300,
+            "rating": 4.95,
+            "stock": 245,
+            "brand": "Apple",
+            "category": "headphones",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/02/02ee1a3f-5568-11eb-a239-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/02/02ee1a40-5568-11eb-a239-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/02/02ee1a41-5568-11eb-a239-005056b6dbd7.jpeg",
+            ]
+        },
+        {
+            "id": "5",
+            "title": "APPLE AirPods MAX Green",
+            "description": [
+                "Абсолютно оригинальная композиция.",
+                "Представляем наушники AirPods Max, где высочайшее качество звука в полной гармонии с волшебной простотой AirPods. Это звук в блестящем исполнении. AirPods Max — это совершенно новый взгляд на полноразмерные наушники. Все элементы AirPods Max, от амбушюров до оголовья, спроектированы таким образом, чтобы наушники оптимально прилегали к голове любой формы. Благодаря этому достигается невероятное качество и богатство звука."
+            ],
+            "price": 749,
+            "rating": 4.09,
+            "stock": 36,
+            "brand": "Apple",
+            "category": "headphones",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/cb/cbede756-c353-11eb-a23e-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/cb/cbede757-c353-11eb-a23e-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/cb/cbede758-c353-11eb-a23e-005056b6dbd7.jpeg",
+            ]
+        },
+        {
+            "id": "6",
+            "title": "APPLE Watch Series 7, 41mm Starlight Aluminium",
+            "description": [
+                "Показывают максимум.",
+                "Увеличенный дисплей меняет всё. Он приносит ещё боль­ше пользы, потому что информацию на экране видно лучше и пользо­ваться часами заметно удобнее. В модели Series 7 воплотились наши самые грандиозные и самые яркие идеи. Физика на грани фантастики. Мы поставили себе задачу сделать дисплей больше, почти не увеличивая размер корпуса. И нашли решение. Конструкция дисплея была фундаментально переосмыслена, что позволило уменьшить рамку на 40%. В итоге область просмотра увеличилась примерно на 20% по сравнению с Series 6. И более чем на 50% по сравнению с Series 3. Есть повод порадоваться."
+            ],
+            "price": 609,
+            "rating": 4.21,
+            "stock": 74,
+            "brand": "Apple",
+            "category": "smart-watches",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/11/1199bedc-2a45-11ec-a23f-005056b6dbd7.png",
+                "https://www.mechta.kz/export/1cbitrix/import_files/11/1199bedd-2a45-11ec-a23f-005056b6dbd7.png",
+                "https://www.mechta.kz/export/1cbitrix/import_files/36/36dd3e6d-32f1-11ec-a23f-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "APPLE 20W USB-C Power Adapter",
+            "description": [
+                "Возможность быстро и эффективно заряжать устройство дома",
+                "Адаптер питания Apple USB‑C мощностью 20 Вт даёт возможность быстро и эффективно заряжать устройство дома, в офисе или в пути. Этот адаптер совместим с любыми устройствами, оснащёнными портом USB-C, но для максимальной эффективности Apple рекомендует использовать его для зарядки iPad Pro и iPad Air. Также с его помощью можно быстро зарядить iPhone 8 или новее. Зарядный кабель продаётся отдельно."
+            ],
+            "price": 35,
+            "rating": 4.81,
+            "stock": 1294,
+            "brand": "Apple",
+            "category": "accessories",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/2a/2aaa63f1-1517-11eb-a235-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/2a/2aaa63f2-1517-11eb-a235-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/2a/2aaa63f3-1517-11eb-a235-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "APPLE Watch Nike Series 7, 41mm Midnight Aluminium",
+            "description": [
+                "Показывают максимум.",
+                "Увеличенный дисплей меняет всё. Он приносит ещё боль­ше пользы, потому что информацию на экране видно лучше и пользо­ваться часами заметно удобнее. В модели Series 7 воплотились наши самые грандиозные и самые яркие идеи. Физика на грани фантастики. Мы поставили себе задачу сделать дисплей больше, почти не увеличивая размер корпуса. И нашли решение. Конструкция дисплея была фундаментально переосмыслена, что позволило уменьшить рамку на 40%. В итоге область просмотра увеличилась примерно на 20% по сравнению с Series 6. И более чем на 50% по сравнению с Series 3. Есть повод порадоваться."
+            ],
+            "price": 639,
+            "rating": 4.39,
+            "stock": 44,
+            "brand": "Apple",
+            "category": "smart-watches",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/11/1199befa-2a45-11ec-a23f-005056b6dbd7.png",
+                "https://www.mechta.kz/export/1cbitrix/import_files/11/1199befb-2a45-11ec-a23f-005056b6dbd7.png",
+                "https://www.mechta.kz/export/1cbitrix/import_files/36/36dd3e73-32f1-11ec-a23f-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "9",
+            "title": "APPLE MacBook Air 2020 13.3 Space Grey",
+            "description": [
+                "С новой силой.",
+                "С появлением чипа Apple M1 самый тонкий и лёгкий ноутбук полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический — до 5 раз. А благодаря передовой системе Neural Engine скорость машинного обучения возросла до 9 раз. Новый MacBook Air работает без подзарядки дольше, чем предыдущие модели. И совсем не шумит, потому что у него нет вентилятора. Мощность ещё никогда не была такой компактной."
+            ],
+            "price": 1140,
+            "rating": 4.35,
+            "stock": 25,
+            "brand": "Apple",
+            "category": "laptop",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/8a/8abf9647-3083-11eb-a237-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/8a/8abf9648-3083-11eb-a237-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/8a/8abf9649-3083-11eb-a237-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "10",
+            "title": "APPLE MacBook Pro 14 2021 Space Grey",
+            "description": [
+                "Заряженный для профессионалов.",
+                "Самый мощный MacBook Pro в истории. С молниеносным чипом M1 Pro или M1 Max - первым кремнием Apple, разработанным для профессионалов, - вы получаете революционную производительность и потрясающее время автономной работы. Добавьте к этому потрясающий дисплей Liquid Retina XDR, лучшую камеру и аудиосистему на ноутбуке Mac и все необходимые порты. MacBook Pro - первый в своем роде ноутбук."
+            ],
+            "price": 2840,
+            "rating": 4.02,
+            "stock": 36,
+            "brand": "Apple",
+            "category": "laptops",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/07/07b520c8-774d-11ec-a243-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/07/07b520ca-774d-11ec-a243-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/07/07b520c9-774d-11ec-a243-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "11",
+            "title": "APPLE iPad mini 2021 64Gb Space Grey",
+            "description": [
+                "iPad mini Мегамощь. Миниразмер.",
+                "Pad mini прекрасен в каждой детали — новый корпус, новый дисплей от края до края, узкая рамка и элегантные закруглённые края. Дисплей Liquid Retina с диагональю 8,3 дюйма. Технология True Tone, широкий цветовой охват P3 и отличная защита от бликов делают текст чётким, а цвета яркими в любых условиях. Apple Pencil крепится при помощи магнитов к боковой поверхности iPad mini. Если вам нужно быстро набросать рисунок или записать что‑то важное на встрече, он всегда под рукой.*"
+            ],
+            "price": 720,
+            "rating": 4.33,
+            "stock": 34,
+            "brand": "Apple",
+            "category": "tablets",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/b2/b2d67e64-1b77-11ec-a23f-005056b6dbd7.png",
+                "https://www.mechta.kz/export/1cbitrix/import_files/b2/b2d67e66-1b77-11ec-a23f-005056b6dbd7.png",
+                "https://www.mechta.kz/export/1cbitrix/import_files/b2/b2d67e67-1b77-11ec-a23f-005056b6dbd7.png"
+            ]
+        },
+        {
+            "id": "12",
+            "title": "APPLE iPad PRO M1 12,9 2021 128GB Space Grey",
+            "description": [
+                "iPad Pro С суперсилой чипа Apple M1",
+                "iPad Pro c чипом M1 — самый быстрый iPad. Он разработан таким образом, чтобы уникальные технологии в чипе M1 — например, передовой процессор обработки сигнала и архитектура объединённой памяти — полностью раскрыли свой потенциал. А благодаря энерго­эф­фек­тив­ности M1 тонкий и лёгкий iPad Pro может работать без подзарядки целый день — это удивительное сочетание мощности и компактности."
+            ],
+            "price": 1449,
+            "rating": 4.69,
+            "stock": 76,
+            "brand": "Apple",
+            "category": "tablets",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/5c/5cfd71f5-bc65-11eb-a23e-005056b6dbd7.png",
+                "https://www.mechta.kz/export/1cbitrix/import_files/5c/5cfd71f7-bc65-11eb-a23e-005056b6dbd7.png",
+                "https://www.mechta.kz/export/1cbitrix/import_files/5c/5cfd71f6-bc65-11eb-a23e-005056b6dbd7.png"
+            ]
+        },
+        {
+            "id": "13",
+            "title": "APPLE AirTag",
+            "description": [
+                "AirTag Находчивые штучки",
+                "Сигнал ведёт к находке. Любая вещь может оказаться не на своём месте и потеряться. Например, кошелёк. Но когда к нему прикреплён AirTag, всё очень просто. Его можно найти по звуку благодаря встроенному динамику. Откройте приложение «Локатор», перейдите на новую вкладку «Вещи» и включите на своём трекере звуковой сигнал. Или скажите: «Привет, Siri, найди мой кошелёк». Если он где‑то рядом — под диваном или в соседней комнате — идите на звук и найдёте."
+            ],
+            "price": 35,
+            "rating": 4.89,
+            "stock": 166,
+            "brand": "Apple",
+            "category": "accessories",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/c0/c0a1e651-d4b6-11eb-a23f-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/c0/c0a1e652-d4b6-11eb-a23f-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/c0/c0a1e653-d4b6-11eb-a23f-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "14",
+            "title": "APPLE iMac Pro 2020",
+            "description": [
+                "Охлаждает, не прохлаждаясь.",
+                "Когда такие мощные компоненты нужно расположить все вместе в одном утончённом корпусе, требуется принципиально иная система терморегуляции. Мы разработали для iMac Pro новую систему охлаждения с инновационным сдвоенным вентилятором, радиатором повышенной ёмкости и дополнительными вентиляционными отверстиями. Результат? Воздушный поток увеличился почти на 75%, а теплоёмкость системы выросла на 80%. Поэтому iMac Pro не нагревается даже при мощности 500 Вт и работает очень тихо."
+            ],
+            "price": 10229,
+            "rating": 4.16,
+            "stock": 18,
+            "brand": "Apple",
+            "category": "PC's",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/e8/e801d8c4-3c6e-11ec-a240-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/e8/e801d8c5-3c6e-11ec-a240-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/e8/e801d8c7-3c6e-11ec-a240-005056b6dbd7.jpeg"
+            ]
+        },
+        {
+            "id": "15",
+            "title": "APPLE MacBook Pro 2020 13.3 Silver",
+            "description": [
+                "MacBook Pro Серьёзно прибавил.",
+                "С появлением чипа M1 MacBook Pro 13 дюймов становится невероятно про­из­во­ди­тель­ным и быстрым. Мощность центрального процессора выросла до 2,8 раза. Скорость обработки графики — до 5 раз. Благодаря передовой системе Neural Engine скорость машинного обучения возросла до 11 раз. При этом MacBook Pro работает без подзарядки до 20 часов — дольше, чем любой другой Mac. Cамый популярный ноутбук класса Pro выходит на совершенно новый уровень."
+            ],
+            "price": 1849,
+            "rating": 4.88,
+            "stock": 54,
+            "brand": "Apple",
+            "category": "laptops",
+            "images": [
+                "https://www.mechta.kz/export/1cbitrix/import_files/73/734efe8d-3090-11eb-a237-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/73/734efe99-3090-11eb-a237-005056b6dbd7.jpeg",
+                "https://www.mechta.kz/export/1cbitrix/import_files/73/734efe97-3090-11eb-a237-005056b6dbd7.jpeg",
+            ]
+        },
+    ]
 }
